@@ -193,9 +193,9 @@ string Create_Matrix(string keyword)
     /*** Change all w's into v's *****/
     for (int tmp = 0; tmp < len; tmp++)
     {
-        if (keyword[tmp] == 'w')
+        if (keyword[tmp] == 'j')
         {
-            keyword[tmp] = 'v';
+            keyword[tmp] = 'i';
         }
     }
     /**********************************/
